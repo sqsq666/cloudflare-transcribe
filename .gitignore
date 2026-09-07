@@ -4,12 +4,33 @@
 
 .dev.vars
 .dev.vars.*
+!.dev.vars.example
+
+# Cloudflare/Wrangler credentials and local state
+.cloudflare/
+*.pem
+*.key
+*.p12
+*.crt
 
 .wrangler/
 node_modules/
 dist/
 coverage/
+test-results/
+playwright-report/
 *.log
+
+# Local media and generated transcript fixtures
+*.m4a
+*.mp3
+*.wav
+*.flac
+*.ogg
+*.webm
+*.aac
+*.srt
+*.vtt
 
 .DS_Store
 
