@@ -1,6 +1,6 @@
-# Autonomous Development Plan
+# DONE
 
-**Status:** Planning checkpoint complete; implementation skeleton ready for Phase 2.
+**Status:** V1 planning checkpoint reached; implementation skeleton ready for Phase 2.
 
 **Summary:** 
 - Phase 1 complete (architecture baseline, contracts, ADRs, repository rules).
